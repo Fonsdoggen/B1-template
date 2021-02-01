@@ -23,6 +23,10 @@ body, html{
   margin: 0 auto;
 }
 
+.row{
+  display: flex;
+  justify-content: space-between;
+}
 header{
   background: url('../images/park01.jpg');
   background-size: cover;
