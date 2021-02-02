@@ -67,14 +67,8 @@ h1{
 }
 
 h2{
-  border-left: 5px solid #27AE60;
+  border-left: 5px #27AE60;
   padding-left: 10px;
-}
-
-.emphasize{
-  border-left: 5px solid #27AE60;
-  color: rgba(1px, 0, 5px);
-  padding: 1em;
 }
 
 main{
@@ -131,6 +125,17 @@ article h2.rides{
 }
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
+}
+
+.emphasize{
+  box-shadow: 0px 1px 5px #27AE60;
+  padding: 1em;
+}
+
+.emphasize h2{
+  margin: 0 auto;
+  border-left: none;
+  text-align: center;
 }
 
 .product{
