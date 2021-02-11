@@ -199,6 +199,10 @@ footer{
   display: block;
 }
 
+.eigenmok{
+  display: flex;
+  justify-content: space-between;
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -206,11 +210,15 @@ footer{
 */
 
 @media (max-width: 480px) {
+  
   .hidden-on-lg{
     display: block;
   }
   .hidden-on-sm{
     display: none;
+  }
+  .eigenmok{
+    flex-direction: column;
   }
 }
 
